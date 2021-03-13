@@ -9,3 +9,7 @@ FIREBASE_SETTINGS = {
             'uid': environ["VCDIFF_UID"]
         }
     }
+
+ICON_URL = "https://github.com/approvers/py-vcnotify/raw/main/assets/icon/icon.jpg"
+
+COOLDOWN_TIME = 15
