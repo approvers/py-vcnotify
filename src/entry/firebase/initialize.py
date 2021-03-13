@@ -1,0 +1,13 @@
+import firebase_admin
+
+from src.entry.firebase.credential import get_credential
+
+from config import FIREBASE_SETTINGS
+
+
+def initialize() -> None:
+    CREDENTIAL = get_credential()
+
+    firebase_admin.initialize_app(CREDENTIAL, FIREBASE_SETTINGS)
+
+    firebase_admin.get_app()
