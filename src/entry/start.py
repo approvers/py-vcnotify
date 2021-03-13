@@ -5,7 +5,7 @@ initialize_firebase = initialize
 
 
 def start():
+    initialize_firebase()
+
     bot_client = Client()
     bot_client.launch()
-
-    initialize_firebase()

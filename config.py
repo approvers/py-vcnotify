@@ -2,6 +2,7 @@ from os import environ
 
 DISCORD_TOKEN = environ["VCDIFF_TOKEN"]
 CREDENTIAL_B64 = environ["VCDIFF_CRED_B64"]
+CREDENTIAL_FILE_NAME = "credential.json"
 
 FIREBASE_SETTINGS = {
         'databaseURL': environ["VCDIFF_DB_URL"],
