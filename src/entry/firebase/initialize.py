@@ -9,5 +9,3 @@ def initialize() -> None:
     CREDENTIAL = get_credential()
 
     firebase_admin.initialize_app(CREDENTIAL, FIREBASE_SETTINGS)
-
-    firebase_admin.get_app()
